@@ -1,0 +1,195 @@
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --secondary-background-color: #2F303A;
+    --primary-background-color: #FFFFFF;
+    --additional-background-color:#F5F4FA;
+    --main-white-color: #FFFFFF;
+    --hover-btn-color: #188CE8;
+    --black-color: #000000;
+}
+
+body{
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;} 
+        
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+ }
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--accent-color);
+}
+.logo-accent{
+    color: var(--black-color);
+}
+.logo-accent-footer{
+    color: var(--main-white-color);
+}
+.header-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+.header-tel{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.header-link:hover,
+.header-link:focus,
+.header-tel:hover,
+.header-tel:focus,
+.address-tel:focus,
+.address-tel:hover
+{
+    color: var(--accent-color);
+}
+.hero{
+    background-color: var(--secondary-background-color);
+}
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height:1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-white-color)
+}
+.btn{
+    cursor: pointer;
+}
+.hero-btn{
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height:1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--main-white-color);
+}
+.hero-btn:focus,
+.hero-btn:hover{
+    background: var(--hover-btn-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.descr-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+.descr-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primary-text-color);
+}
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height:1.17;
+    text-align: center;
+    color: var(--title-text-color);
+}
+.team{
+    background-color: var(--additional-background-color);
+}
+.team-item{
+    background-color: var(--primary-background-color);
+}
+.team-list-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--title-text-color);
+    text-align: center;
+}
+.team-list-text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--primary-text-color);
+}
+.footer{
+    background-color: var(--secondary-background-color);
+}
+.address{
+    font-style:normal;
+}
+.address-map{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--main-white-color);
+}
+.address-tel{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+.nav-btn{
+    background: var(--additional-background-color);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: var(--title-text-color);
+}
+.nav-btn:focus,
+.nav-btn:hover{
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.62;
+    text-align: center;
+    color: var(--main-white-color);
+    background: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.project-item-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+.project-item-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.86;
+    color: var(--primary-text-color) ;
+}
